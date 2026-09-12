@@ -1,4 +1,5 @@
 import Image from "next/image";
+import heroImage from "../../public/images/event-creator-hero.png";
 import { Container, CtaLink, Eyebrow } from "./ui";
 
 export function Hero() {
@@ -39,7 +40,7 @@ export function Hero() {
 
         <div className="relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden lg:aspect-[3/4] lg:max-w-none">
           <Image
-            src="/images/event-creator-hero.png"
+            src={heroImage}
             alt="Junto Event Creator conectando con un grupo en un rooftop de Madrid"
             fill
             priority

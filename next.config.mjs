@@ -8,7 +8,7 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: isGithubPages ? `/${repoName}` : "",
-  assetPrefix: isGithubPages ? `/${repoName}/` : "",
+  assetPrefix: isGithubPages ? `/${repoName}` : "",
   trailingSlash: true,
 };
 
