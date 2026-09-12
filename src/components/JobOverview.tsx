@@ -13,7 +13,7 @@ const blocks: { title: string; items: string[] }[] = [
   {
     title: "Cómo ganas",
     items: [
-      "200 € por evento",
+      "100 € por evento",
       "Comisiones e incentivos según resultados",
       "Potencial de hasta 2.500 €/mes*",
       "Colaboración freelance, no asalariada",

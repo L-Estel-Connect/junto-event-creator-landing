@@ -12,7 +12,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Junto Event Creator · Madrid",
   description:
-    "Crea los eventos que todo Madrid querrá conocer. Únete como Junto Event Creator en Madrid.",
+    "Event Creator freelance en Madrid. Organiza eventos sociales con Junto: remuneración por evento, con comisiones e incentivos según resultados.",
 };
 
 export default function RootLayout({

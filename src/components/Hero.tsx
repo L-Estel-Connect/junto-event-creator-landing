@@ -7,21 +7,22 @@ export function Hero() {
         <div className="text-center lg:text-left">
           <Eyebrow>Junto Event Creator · Madrid</Eyebrow>
 
-          <h1 className="mx-auto mt-5 max-w-xl text-balance text-4xl font-bold leading-[1.1] tracking-tight sm:text-5xl lg:mx-0 lg:text-[3.2rem]">
-            Crea los eventos que todo Madrid querrá conocer.
+          <h1 className="mx-auto mt-5 max-w-xl text-balance text-3xl font-bold leading-[1.2] tracking-tight sm:text-4xl lg:mx-0">
+            Event Creator freelance en Madrid
           </h1>
 
           <p className="mx-auto mt-5 max-w-md text-base leading-relaxed text-junto-ink/70 sm:text-lg lg:mx-0">
-            Organiza experiencias sociales en Madrid con el apoyo de Junto. Ganas por evento, más
-            comisiones según resultados.
+            Junto busca personas que organicen eventos sociales en Madrid: encontrar el lugar,
+            reunir al grupo y crear el ambiente para que la gente conecte. Colaboración freelance
+            remunerada por evento, con comisiones e incentivos según resultados.
           </p>
 
-          <div className="mx-auto mt-7 inline-flex max-w-full flex-col items-center gap-1 rounded-2xl bg-junto-coral px-8 py-5 text-white lg:mx-0 lg:items-start">
-            <span className="text-2xl font-bold tracking-tight sm:text-3xl">Hasta 2.500 €/mes*</span>
-            <span className="text-xs font-medium text-white/85 sm:text-sm">
-              200 € por evento + comisiones e incentivos
-            </span>
-          </div>
+          <p className="mx-auto mt-7 max-w-md text-2xl font-bold text-junto-coral sm:text-3xl lg:mx-0">
+            Hasta 2.500 €/mes*
+          </p>
+          <p className="mx-auto mt-1 max-w-md text-sm text-junto-ink/60 lg:mx-0">
+            100 € por evento + comisiones e incentivos según resultados
+          </p>
 
           <div className="mt-8 flex justify-center lg:justify-start">
             <CtaLink href="#formulario" variant="primary">
