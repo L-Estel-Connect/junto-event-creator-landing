@@ -1,4 +1,5 @@
-import { Container, CtaLink, Eyebrow, ImagePlaceholder } from "./ui";
+import Image from "next/image";
+import { Container, CtaLink, Eyebrow } from "./ui";
 
 export function Hero() {
   return (
@@ -36,11 +37,17 @@ export function Hero() {
           </p>
         </div>
 
-        <ImagePlaceholder
-          label="Rooftop / dinner en Madrid, luz cálida de atardecer, grupo conectando"
-          aspect="aspect-[4/5] lg:aspect-[3/4]"
-          className="mx-auto w-full max-w-sm lg:max-w-none"
-        />
+        <div className="relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden lg:aspect-[3/4] lg:max-w-none">
+          <Image
+            src="/images/event-creator-hero.png"
+            alt="Junto Event Creator conectando con un grupo en un rooftop de Madrid"
+            fill
+            priority
+            sizes="(min-width: 1024px) 45vw, 90vw"
+            className="object-cover"
+            style={{ objectPosition: "38% 42%" }}
+          />
+        </div>
       </Container>
     </section>
   );
