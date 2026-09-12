@@ -17,11 +17,11 @@ export function Container({
 
 export function Eyebrow({ children, className = "" }: { children: ReactNode; className?: string }) {
   return (
-    <p
-      className={`text-xs sm:text-sm font-semibold uppercase tracking-[0.16em] text-junto-coral ${className}`}
+    <span
+      className={`inline-flex items-center rounded-full bg-junto-coral/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.1em] text-junto-coral sm:text-sm ${className}`}
     >
       {children}
-    </p>
+    </span>
   );
 }
 
@@ -36,7 +36,7 @@ type CtaBaseProps = {
 };
 
 const baseCtaClasses =
-  "inline-flex items-center justify-center gap-2 px-7 py-3.5 text-sm font-semibold uppercase tracking-[0.08em] transition-colors duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-junto-coral";
+  "inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 text-sm font-semibold tracking-wide transition-colors duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-junto-coral";
 
 const variantClasses: Record<NonNullable<CtaBaseProps["variant"]>, string> = {
   primary: "bg-junto-coral text-white hover:bg-[#e14944]",

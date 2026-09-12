@@ -16,7 +16,7 @@ export function Header() {
             JUNTO LOGO
           </span>
         </Link>
-        <CtaLink href="#aplicar" variant="primary" className="px-5 py-2.5 text-xs sm:px-7 sm:py-3.5 sm:text-sm">
+        <CtaLink href="#formulario" variant="primary" className="px-5 py-2.5 text-xs sm:px-7 sm:py-3.5 sm:text-sm">
           Aplicar ahora
         </CtaLink>
       </Container>

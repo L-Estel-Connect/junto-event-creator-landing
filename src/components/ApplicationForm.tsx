@@ -142,7 +142,7 @@ export function ApplicationForm() {
 
   if (submitted) {
     return (
-      <section id="formulario" className="border-t border-junto-ink/10 py-20 sm:py-28">
+      <section id="formulario" className="border-t border-junto-ink/10 py-14 sm:py-20">
         <Container className="max-w-2xl text-center">
           <Eyebrow>Candidatura completada</Eyebrow>
           <h2 className="mt-4 text-3xl font-bold tracking-tight sm:text-4xl">
@@ -164,7 +164,7 @@ export function ApplicationForm() {
   }
 
   return (
-    <section id="formulario" className="border-t border-junto-ink/10 py-20 sm:py-28">
+    <section id="formulario" className="border-t border-junto-ink/10 py-14 sm:py-20">
       <Container className="max-w-2xl">
         <Eyebrow>Formulario de candidatura</Eyebrow>
         <h2 className="mt-4 text-3xl font-bold tracking-tight sm:text-4xl">Cuéntanos sobre ti</h2>
